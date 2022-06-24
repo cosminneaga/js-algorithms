@@ -33,7 +33,7 @@ function sort_binary(array, target) {
 
 
     let stop = process.hrtime(start)
-    console.log(`Time Taken to execute: ${(stop[0] * 1e9 + stop[1]) / 1e9} seconds`)
+    console.log(`Executed in: ${(stop[0] * 1e9 + stop[1]) / 1e9} seconds`)
 }
 
 
@@ -48,7 +48,7 @@ function sort_linear(array, target) {
     }
 
     let stop = process.hrtime(start)
-    console.log(`Time Taken to execute: ${(stop[0] * 1e9 + stop[1]) / 1e9} seconds`)
+    console.log(`Executed in: ${(stop[0] * 1e9 + stop[1]) / 1e9} seconds`)
 }
 
 
